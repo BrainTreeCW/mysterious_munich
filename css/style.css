@@ -14,7 +14,6 @@
   color: #DEDEDE !important;
 }
 
-
 .mm-dark_black {
   background-color: #0E0E0F !important;
 }
@@ -29,4 +28,8 @@
 
 .mm-platin {
   background-color: #CCCBC9 !important;
+}
+
+.mm-platin-text {
+  color: #CCCBC9 !important;
 }
