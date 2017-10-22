@@ -2141,7 +2141,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -4251,7 +4251,7 @@ a {
 html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -4274,7 +4274,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.1;
 }
 
@@ -8583,7 +8583,7 @@ body {
 
 body {
   background-color: #f4f4f4;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -8663,7 +8663,7 @@ nav ul:not(.indicators) li.active::before {
   right: 0;
   bottom: 0;
   height: 2px;
-  background-color: #fff;
+  background-color: #dab8a9;
 }
 
 nav .nav-background {
@@ -8718,7 +8718,7 @@ nav .nav-header {
 
 nav .nav-header h1 {
   font-size: 56px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 nav .nav-header .tagline {
@@ -8729,6 +8729,7 @@ nav .nav-header .tagline {
 
 nav .categories-wrapper {
   background-color: inherit;
+  border-top: 0.5px solid #dab8a9;
   height: 64px;
 }
 
@@ -8903,7 +8904,7 @@ nav .categories-wrapper .categories-container .categories > li {
 
 .gallery .gallery-body .description {
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .gallery .gallery-action {
@@ -8978,13 +8979,13 @@ nav .categories-wrapper .categories-container .categories > li {
 }
 
 .gallery-body .carousel-wrapper .carousel {
-  height: 200px;
+  height: 300px;
 }
 
 .gallery-body .carousel-wrapper .carousel-item {
   opacity: 1 !important;
   width: 300px;
-  height: 200px;
+  height: 300px;
 }
 
 .nav-header .carousel {
