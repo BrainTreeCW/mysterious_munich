@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109507253-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109507253-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Munich Restaurant Guide">
@@ -17,6 +26,9 @@
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://use.fontawesome.com/c13554c783.js"></script>
   </head>
 
   <body>
@@ -27,18 +39,11 @@
         <a href="index.html" class="brand-logo mm-rosegold-text"><i class="material-icons">camera</i>Mysterious Munich</a>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="index.html" class="mm-rosegold-text">Home</a></li>
-          <!--<li><a href="blog.html" class="mm-rosegold-text">Blog</a></li>-->
-          <li><a href="about.html" class="mm-rosegold-text">About Us</a></li>
-          <li><a href="imprint.html" class="mm-rosegold-text">Imprint</a></li>
+          <li class="active"><a href="./index.html" class="mm-rosegold-text">Home</a></li>
+          <li><a href="./about.html" class="mm-rosegold-text">About Us</a></li>
+          <li><a href="./imprint.html" class="mm-rosegold-text">Imprint</a></li>
+          <li><a href="https://www.instagram.com/mysterious_munich/" target="_blank" class="mm-rosegold-text"><i class="fa fa-instagram fa-2x"></i></a></li>
         </ul>
-        <!-- Dropdown Structure -->
-        <ul id='feature-dropdown' class='dropdown-content'>
-          <li><a href="full-header.html">Fullscreen Header</a></li>
-          <li><a href="horizontal.html">Horizontal Style</a></li>
-          <li><a href="no-image.html">No Image Expand</a></li>
-        </ul>
-
         <div class="nav-header center">
           <h1 class="mm-rosegold-text">MYSTERIOUS MUNICH</h1>
           <div class="tagline mm-rosegold-text">The Fine Dining Guide</div>
@@ -62,10 +67,10 @@
       </div>
     </nav>
     <ul class="side-nav" id="nav-mobile">
-      <li class="active"><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-      <li><a href="blog.html"><i class="material-icons">edit</i>Blog</a></li>
-      <li><a href="about.html"><i class="material-icons">face</i>About Us</a></li>
-      <li><a href="imprint.html"><i class="material-icons">view_headline</i>Imprint</a></li>
+      <li class="active"><a href="./index.html"><i class="material-icons">home</i>Home</a></li>
+      <li><a href="./about.html"><i class="material-icons">face</i>About Us</a></li>
+      <li><a href="./imprint.html"><i class="material-icons">note</i>Imprint</a></li>
+      <li><a href="https://www.instagram.com/mysterious_munich/" target="_blank"><i class="fa fa-instagram fa-2x"></i>Instagram</a></li>
     </ul>
 
     <!-- Gallery -->
@@ -126,7 +131,7 @@
                 </div>
               </div>
               <div class="gallery-action">
-                <a class="btn-floating btn-large waves-effect waves-light mm-black"><i class="material-icons">photo_camera</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light mm-black" href="https://www.instagram.com/mysterious_munich/" target="_blank"><i class="fa fa-instagram"></i></a>
               </div>
             </div>
           </div>
